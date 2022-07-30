@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Ibarra+Real+Nova&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Edu+SA+Beginner&family=Ibarra+Real+Nova&family=Montserrat:ital,wght@1,100&display=swap');
 
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crimson Text', serif;
   background-color: #0A0A0A;
 }
 
@@ -34,4 +34,20 @@ code {
   background-image: url('../public/shp.avif');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.book {
+  background-image: url('../public/book.avif');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .spk,
+  .shp,
+  .key,
+  .book {
+    background-size: contain;
+  }
 }

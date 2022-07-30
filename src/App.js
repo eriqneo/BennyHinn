@@ -7,6 +7,8 @@ import { Resourse } from './components/Resourse';
 import Keynote from './components/Keynote';
 import Speak from './components/Speak';
 import Shop from './components/Shop';
+import Book from './components/Book';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Resourse />
       <Speak />
       <Shop />
+      <Book />
+      <Footer />
     </div>
   );
 }

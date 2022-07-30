@@ -23,7 +23,7 @@ const Shop = () => {
 
       <div className="mt-4 sm:mt-8">
         <a
-          className="inline-flex items-center px-8 py-3 text-black transition bg-gold hover:bg-black rounded-full shadow-lg focus:outline-none focus:ring focus:ring-yellow-400 hover:bg-gray-800"
+          className="inline-flex items-center px-8 py-3 text-black transition bg-gold hover:bg-black rounded-full shadow-lg focus:outline-none focus:ring"
           href="www"
         >
           <span className="text-sm font-bold hover:text-gold"> Order Now <i className='bx-fw bx bx-right-arrow-alt bx-sm'></i></span>

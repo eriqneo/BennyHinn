@@ -2,8 +2,13 @@ import React from "react";
 
 export const Resourse = () => {
   return (
-    <section className="my-5 mt-10 border border-y-8 rounded-xl bg-snow h-max">
-      <div className="flex flex-row ml-8 text-black font-bold justify-around gap-28">
+    <section>
+      <div className='text-center mb-5'>
+            <h3 className='text-white text-4xl mt-3'>Sprout: <small className="italic" >The Journey of A Dreamer</small></h3>
+            <hr className='w-28 h-1 m-auto mt-6 bg-gold align-middle'/>
+        </div>
+    <div className="my-5 mt-10 border border-y-8 rounded-xl bg-snow h-max">
+      <div className="flex flex-col md:flex-row ml-8 text-black font-bold justify-around md:gap-28">
       <div className="">
           <a className="relative block group" href="www">
             <img
@@ -22,7 +27,7 @@ export const Resourse = () => {
                 <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                   <p className="text-sm text-black">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Omnis perferendis hic asperiores quibusdam quidem voluptates
+                    Omnis perferendis hic asperiores quibtusdam quidem voluptates
                     doloremque reiciendis nostrum harum. Repudiandae?
                   </p>
                 </div>
@@ -44,6 +49,7 @@ export const Resourse = () => {
         </div>
        
       </div>
+    </div>
     </section>
   );
 };
