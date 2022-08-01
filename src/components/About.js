@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className='grid md:grid-cols-2 grid-cols-1 text-white mx-10 my-5 border border-y-8 rounded-xl'>
         <div>
-            <p className='text-2xl ml-3 mt-6'>I am <strong className='text-gold text-6xl'>BennyHinn Walubengo...</strong><br /><br /> Lorem ipsum dolor,sit amet consectetur 
+            <p className='text-xl md:text-2xl ml-3 mt-6'>I am <strong className='text-gold text-4xl md:text-6xl'>BennyHinn Walubengo...</strong><br /><br /> Lorem ipsum dolor,sit amet consectetur 
             <br /><br />
             adipisicing elit. Porro rerum consequatur repellat in doloremque dolores aliquid <br /> deserunt molestias odio harum autem nesciunt 
             numquam, pariatur vel enim laboriosam? Nam molestias nemo, quibusdam numquam dicta veritatis laborum dolorum vero aut sequi distinctio.
