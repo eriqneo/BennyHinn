@@ -12,8 +12,8 @@ export const Resourse = () => {
       <div className="">
           <a className="relative block group" href="www">
             <img
-              className="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75 rounded-lg group-hover:opacity-50"
-              src="/sht7.png"
+              className="absolute mt-4 inset-0 object-cover w-full h-full transition-opacity opacity-75 rounded-lg group-hover:opacity-50"
+              src="/cover.png"
               alt=""
             />
             <div className="relative p-8">
@@ -36,7 +36,7 @@ export const Resourse = () => {
           </a>
         </div>
         <div>
-          <p className="text-center mr-6 mt-40 text-xl">
+          <p className="text-center mr-6 mt-40 text-xl flex items-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
             illo accusantium quasi dolores error dolorem sed ipsum iste.
             Dignissimos adipisci iste odio minima earum neque sapiente quam
@@ -44,8 +44,8 @@ export const Resourse = () => {
             adipisicing elit. Possimus illo accusantium quasi dolores error
             dolorem sed ipsum iste. Dignissimos adipisci iste odio minima earum
             neque sapiente quam reiciendis assumenda illo. <br /> <br />
-            <i className='bx bx-book-reader bx-lg text-black hover:text-gold'></i>
           </p>
+          <img src="/fc.png" alt="" className="w-1/4 lg:ml-96 hover:animate-bounce"/>
         </div>
        
       </div>
