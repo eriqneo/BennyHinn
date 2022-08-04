@@ -9,6 +9,7 @@ module.exports = {
       'gold': '#D4AF37',
       'white': '#f3f4f6',
       'snow': '#FFFFFF',
+      "red": "#d90429"
     },
     extend: {},
   },

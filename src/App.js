@@ -11,6 +11,7 @@ import Book from './components/Book';
 import Footer from './components/Footer';
 
 
+
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Shop />
       <Book />
       <Footer />
+    
     </div>
   );
 }
