@@ -2,7 +2,38 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <section className='grid md:grid-cols-2 grid-cols-1 text-white mx-10 my-5 border border-y-8 rounded-xl'>
+    <section className='abt'>
+      <div className='flex justify-center'><img src="/sht7.png" alt="shoot7" className='' /></div>
+      <div className='flex flex-row justify-between'>
+        <div className='max-w-sm ml-14 -mt-96 '>
+          <hr className='border border-gold mb-3' />
+          <p className='text-xl text-white'>Hello 👋 I am<strong className='text-3xl text-gold'>Bennyhinn Walubengo</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptates vero culpa dolor,
+           ducimus, atque, quam qui labore cumque possimus numquam eligendi laudantium deserunt. Vitae dolor dolorum maiores 
+           doloremque veritatis? 
+           <hr className='border border-gold mt-3' />
+           <br />
+           <button className='px-6 py-4 bg-gold text-black hover:bg-snow rounded-lg text-2xl'>
+            Watch<i className='bx-fw bx bx-play bx-md' ></i>Me
+           </button>
+          </p>
+        </div>
+        <div className='max-w-sm mr-14 -mt-96'>
+        <hr className='border border-black mb-3' />
+          <p className='text-xl text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptates vero culpa dolor,
+           ducimus, atque, quam qui labore cumque possimus numquam eligendi laudantium deserunt. Vitae dolor dolorum maiores 
+           doloremque veritatis? 
+           <hr className='border border-black mt-3' />
+           <br />
+           <button className='px-6 py-4 mr-2 border border-gold text-white bg-black hover:text-black hover:bg-snow rounded-lg text-2xl'>
+            My Tours
+           </button>
+          </p>
+        </div>
+      </div> 
+    </section>
+
+   /* 
+   <section className='grid md:grid-cols-2 grid-cols-1 text-white mx-10 my-5 border border-y-8 rounded-xl'>
         <div>
             <p className='text-xl md:text-2xl ml-3 mt-6'>I am <strong className='text-gold text-4xl md:text-6xl'>BennyHinn Walubengo...</strong><br /><br /> Lorem ipsum dolor,sit amet consectetur 
             <br /><br />
@@ -32,5 +63,6 @@ export const About = () => {
             <img src="/Ben.png" alt="Walu" />
         </div>
     </section>
+   */ 
   )
 }
