@@ -1,17 +1,20 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="pt-3 pb-3 flex flex-col md:flex-row md:sticky top-0 z-10 mx-auto drop-shadow-xl bg-black">
+      <Link to='/'>
     <img src="/logho.jpg" alt="" className="text-white border border-gold rounded-r-md px-3 py-3 w-36 ml-3 h-24 hover:border-black"/>
+    </Link>
       <button className='block lg:hidden float-right' type='button' onClick={()=> setMenuOpen(!menuOpen)}>
       <i className='bx bx-menu bx-lg text-gold'></i>
       </button>
     <div className={(menuOpen ? 'flex': `hidden lg:block`)}>
       <div className='lg:flex flex-wrap ml-16'>
         <button className='py-3 px-6 rounded-md text-white text-xl font-semibold  hover:text-gold hover:divide-y-2'>
-            Online Master Class .
+          <Link to='/master'>Online Master Class .</Link>
         </button>
         <button className='ml-5 py-3 px-6 rounded-md text-white text-xl font-semibold hover:text-gold'>
             Merchandise .

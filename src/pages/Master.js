@@ -1,15 +1,14 @@
+import { Navbar } from "../components/Navbar";
 import React from "react";
 
 
 const Master = () => {
   return (
     <div>
-      <div className = "bg-gold">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="" fill-opacity="1" d="M0,224L0,224L180,224L180,256L360,256L360,224L540,224L540,288L720,288L720,64L900,64L900,128L1080,128L1080,192L1260,192L1260,192L1440,192L1440,320L1260,320L1260,320L1080,320L1080,320L900,320L900,320L720,320L720,320L540,320L540,320L360,320L360,320L180,320L180,320L0,320L0,320Z"></path></svg>
-      </div>
+      <Navbar />
       <div className="pbs text-center text-snow ">
         <div className="font-bold pt-3 text-6xl">
-          <span className="text-red">Welcome</span> to <br />
+          <span className="text-gold">Welcome</span> to <br />
           our Online Master <br />
           Class Videos and Courses
         </div>
@@ -34,7 +33,7 @@ const Master = () => {
 
             <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
               <a
-                className="block p-8 transition border border-red shadow-xl rounded-xl hover:bg-black"
+                className="block p-8 transition border border-gold shadow-xl rounded-xl hover:bg-black"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -66,7 +65,7 @@ const Master = () => {
               </a>
 
               <a
-                className="block p-8 transition border border-red shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                className="block p-8 transition border border-gold shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -98,7 +97,7 @@ const Master = () => {
               </a>
 
               <a
-                className="block p-8 transition border border-red shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                className="block p-8 transition border border-gold shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -130,7 +129,7 @@ const Master = () => {
               </a>
 
               <a
-                className="block p-8 transition border border-red hover:bg-black shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                className="block p-8 transition border border-gold hover:bg-black shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -162,7 +161,7 @@ const Master = () => {
               </a>
 
               <a
-                className="block p-8 transition border border-red shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                className="block p-8 transition border border-gold shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -194,7 +193,7 @@ const Master = () => {
               </a>
 
               <a
-                className="block p-8 transition border border-red shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                className="block p-8 transition border border-gold shadow-xl hover:bg-black rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                 href="/services/digital-campaigns"
               >
                 <svg
@@ -230,15 +229,12 @@ const Master = () => {
         <div className ="w-screen bg-black h-10 space-x-7 pb-36" >
           <label htmlFor="" className="text-white ml-4 text-2xl italic">Notify me when a new video comes?</label>
           <input type="text" placeholder="Email" className ="w-1/4 p-4 pr-16 text-sm font-medium bg-white border-none rounded-md" />
-          <button className='px-7 py-3 mr-2 border border-red text-white hover:bg-white hover:text-black rounded-lg text-2xl'>
+          <button className='px-7 py-3 mr-2 border border-gold text-white hover:bg-white hover:text-black rounded-lg text-2xl'>
             Notify
            </button>
-        </div>
-        <div className="" >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,256L0,224L180,224L180,256L360,256L360,192L540,192L540,64L720,64L720,128L900,128L900,256L1080,256L1080,96L1260,96L1260,192L1440,192L1440,320L1260,320L1260,320L1080,320L1080,320L900,320L900,320L720,320L720,320L540,320L540,320L360,320L360,320L180,320L180,320L0,320L0,320Z"></path></svg>
         </div>
       </div>
     </div>
   );
-};<i class='bx bxs-home-alt-2 bx-lg text-red'></i>
+};<i class='bx bxs-home-alt-2 bx-lg text-gold'></i>
 export default Master;

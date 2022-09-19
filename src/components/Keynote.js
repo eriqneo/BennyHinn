@@ -4,11 +4,14 @@ const Keynote = () => {
   return (
     <section>
       <div className='text-center mb-5'>
-            <h3 className='text-white text-4xl mt-3'>Online Master Class</h3>
+            <h3 className='text-white text-4xl mt-3'>Public Speaking</h3>
             <hr className='w-28 h-1 m-auto mt-6 bg-gold align-middle'/>
         </div>
     <div className='my-5 ml-10 grid grid-cols-3'>
-      <div> <img src="/sht3.jpeg" alt="" /> </div>
+      <div className='hover:bg-red'> 
+        <img src="/sht3.jpeg" alt="" className='mx-auto hover:-translate-y-16' /> 
+      <strong className='opacity-0 hover:opacity-100 -mt-7 absolute text-xl font-semibold text-snow'>Meet Benny</strong>  
+      </div>
       <div> <img src="/sht10.jpg" alt="" /> </div>
       <div> <img src="/sht5.jpeg" alt="" /> </div>
       <div className='col-span-2'>

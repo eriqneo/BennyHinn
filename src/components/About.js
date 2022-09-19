@@ -21,13 +21,13 @@ export const About = () => {
         <hr className='border border-black mb-3' />
           <p className='text-xl text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptates vero culpa dolor,
            ducimus, atque, quam qui labore cumque possimus numquam eligendi laudantium deserunt. Vitae dolor dolorum maiores 
-           doloremque veritatis? 
+           doloremque veritatis? </p>
            <hr className='border border-black mt-3' />
            <br />
            <button className='px-6 py-4 mr-2 border border-gold text-white bg-black hover:text-black hover:bg-snow rounded-lg text-2xl'>
             My Tours
            </button>
-          </p>
+          
         </div>
       </div> 
     </section>
